@@ -1,0 +1,8 @@
+public int arrayMax(int[] A, int n){
+	int currentMax = A[0];
+	for(i = 0; i< n - 1; i++){
+		if (A[i] > currentMax)
+			currentMax = A[i];	
+	}
+	return currentMax;
+}
